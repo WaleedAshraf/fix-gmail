@@ -4,8 +4,5 @@ This ext will decrease the with of Gmail left side panel. It does not access/rea
 You can check the code in GitHub repo [WaleedAshraf/fix-gmail](https://github.com/WaleedAshraf/fix-gmail)
 
 
-![image](https://pbs.twimg.com/media/DfAqPdSX4AMm-Gg.jpg)
-
-![After](http://url/to/img.png)
-
-![Before](http://url/to/img.png)
+## After - Before
+![after-before](https://raw.githubusercontent.com/WaleedAshraf/fix-gmail/master/after-before.png)
