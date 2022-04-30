@@ -1,0 +1,28 @@
+{
+  "name": "Fix Gmail",
+  "version": "1.0.0",
+  "description": "Decrease width of Gmail left side panel.",
+  "manifest_version": 3,
+  "host_permissions": [
+    "https://mail.google.com/"
+  ],
+  "icons": {
+    "16": "favicon-16.png",
+    "48": "favicon-48.png",
+    "128": "favicon-192.png"
+  },
+  "action": {
+    "default_icon": "favicon-48.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://mail.google.com/*"
+      ],
+      "css": [
+        "style.css"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
